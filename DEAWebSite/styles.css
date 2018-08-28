@@ -1,0 +1,374 @@
+﻿@import url('styles.css');
+body
+{
+    background-color: #FFFFFF;
+    font-family: Arial, Tahoma, Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: normal;
+    color: #000000;
+    margin: 3px;
+}
+
+.title
+{
+    font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.subtitle
+{
+    font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #003300;
+}
+
+.header
+{
+    font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #669900;
+    color: #339999;
+}
+
+.nav
+{
+    font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: normal;
+}
+
+.navLink
+{
+    font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: normal;
+}
+
+.sidebar
+{
+    font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 14px;
+    padding: 3px;
+    background-color: #FFFFCC;
+    color: #003333;
+}
+
+.sidebarHeader
+{
+    font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #003300;
+    background-color: #FFFF66;
+}
+
+.sidebarFooter
+{
+    font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+    font-size: small;
+    line-height: 18px;
+    background-color: #FFFF99;
+    font-style: italic;
+}
+
+.footer
+{
+    font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #333333;
+    background-color: #CCFF99;
+}
+
+.legal
+{
+    font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 9px;
+    color: #333333;
+}
+
+
+.GridVariants
+{
+    font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+ /*font-size: x-small;*/
+    font-size: 11px;
+    color: black;
+    background-color: white;
+    background-color: #fffff7;
+}
+
+
+.GridVariantsPale
+{
+    font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    color: lightgrey;
+    background-color: #fffff7;
+}
+
+.GridResults
+{
+    font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    color: black;
+    background-color: white;
+}
+
+
+
+.Instruction
+{
+    background-color: White;
+}
+
+.SubHead
+{
+    font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: midnightblue;
+}
+
+
+.NotSoSmall
+{
+    font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+    font-size: x-small;
+}
+
+.Triplet
+{
+    background-color: whitesmoke;
+}
+
+.NMVariantWhite
+{
+    /*background-color: White;*/
+    font-size: 12px;
+    color: gray;
+}
+
+.NMVariantRed
+{
+    /*background-color: indianred;*/
+    background-color: #f7f7f7; /* Must be coordinated with that of the Default-skinned panel bar */
+    color: white;
+    font-size: 12px;
+}
+
+.NMVariantBlue
+{
+    /*background-color: steelblue;*/
+    background-color: #f7f7f7;
+    color: gray;
+    font-size: 12px;
+}
+
+
+.NMVariantGreen
+{
+    /*background-color: teal;*/
+    background-color: #f7f7f7;
+    color: white;
+    font-size: 12px;
+}
+
+.HeadGreen
+{
+    /*background-color: teal;*/
+    background-color: #809e72;
+    color: white;
+    font-size: 12px;
+}
+
+
+.NMVariant
+{
+    /*background-color: steelblue;*/
+    background-color: #f7f7f7; /*background-color: ghostwhite;*/
+    color: gray;
+    font-size: 12px;
+}
+
+.NMVariantPale
+{
+    background-color: #f7f7f7;
+    font-family: Arial, Verdana, tahoma, sans-serif;
+    font-size: 12px;
+    color: gray;
+}
+
+.InstructionHead
+{
+    height: 24px;
+    color: midnightblue; /*background: url(  'RadControls/Grid/Skins/Ice/Img/RadGridBg.gif' ) repeat-x;*/
+    text-align: justify;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.InstructionBody
+{
+    padding-right: 1px;
+    padding-left: 1px;
+    font-weight: normal;
+    font-size: small;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    background-color: #2bb0d1;
+}
+
+SELECT
+{
+    font-size: 11px;
+}
+
+INPUT
+{
+    font-size: 11px;
+}
+
+
+.MultiPage
+{
+    background-color: #d8f5ff;
+}
+
+
+.BlueButton
+{
+    /* 	background: url(Images/radUploadBtnMedium.gif) no-repeat; 	font: bold 11px Tahoma, Arial, Verdana,, Sans-serif; 	color: white; 	height: 22px;     */
+    width: 115px; /* 	border-top-style: none; 	border-right-style: none; 	border-left-style: none; 	border-bottom-style: none;     */
+}
+
+.Banner_Blue
+{
+    background: activecaption;
+    border: solid 1px #c6dddf;
+    font: normal 11px Arial, Verdana, Sans-serif;
+    text-align: left;
+    cursor: default;
+    color: #ffffe9;
+}
+
+.Banner_Blue th, .Banner_Blue th a
+{
+    font: bold 11px Tahoma;
+    color: #ffffe9;
+}
+
+.Banner_Blue td, .Banner_Blue td a, .Banner_Blue td a:visited
+{
+    font-family: Arial, Tahoma, Verdana, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ffffe9;
+}
+
+.Evolution_Panel td, .Evolution_Panel td a, .Evolution_Panel td a:visted
+{
+    font-family: Arial, Tahoma, Verdana, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.Evolution_Panel td a:hover
+{
+    font-family: Arial, Tahoma, Verdana, Helvetica, sans-serif;
+    color: black;
+    text-decoration: underline;
+}
+
+.Download
+{
+    background-color: beige;
+    border-right: whitesmoke thin solid;
+    border-top: whitesmoke thin solid;
+    border-left: whitesmoke thin solid;
+    border-bottom: whitesmoke thin solid;
+}
+
+.IMControl
+{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.PaddedLabel
+{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: ivory;
+    background-color: darkblue;
+}
+
+.EditFormUpperBar
+{
+    background-position: left center;
+    background-image: url(Images/DefaultBackground.gif);
+    background-repeat: repeat;
+}
+
+
+
+.SRTableHead
+{
+    background-color: background;
+    border-right: navy 2px solid;
+    border-top: navy 2px solid;
+    border-left: navy 2px solid;
+    border-bottom: navy 2px solid;
+    color: white;
+}
+
+
+.SRYellowCell
+{
+    background-color: yellow;
+}
+
+.SRNormalCell
+{
+}
+
+.NormalList
+{
+    font-weight: normal;
+}
+
+.ScourHyperLinkStyle
+{
+    margin-left: 50px;
+}
+
+
+
+.UpperBorder
+{
+    padding: 1px;
+    margin: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: #C0C0C0;
+}
+
+.UploadTextArea
+{
+    font-family: 'Segoe UI' , Arial, sans-serif;
+    font-size: 11px;
+}
+
+.WrappingLabel
+{
+    overflow: hidden;
+}
